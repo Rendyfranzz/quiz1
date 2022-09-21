@@ -9,6 +9,6 @@ const form = document.getElementById("form")
 form.addEventListener("submit",function(){
     if(nama.value != null && utusan.value != null && kelurahan.value != null && kecamatan.value != null && telepon.value != null ){
         window.alert("berhasil submit")
-    }
-    window.alert("periksa lagi")
+    }else{ window.alert("periksa lagi")}
+   
 })
